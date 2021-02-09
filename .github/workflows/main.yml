@@ -1,0 +1,27 @@
+name: Refresh
+on:
+  schedule:
+  - cron: "0 4 */1 * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: git config
+        run: git config --global user.name "github-actions"
+      - name: list all file
+        run: ls -al
+      - name: chmod
+        run: chmod +x ./refresh.sh  
+      - name: pull
+        run: git pull  
+      - name: refresh
+        run: ./refresh.sh
+        timeout-minutes: 5
+        shell: bash
+      - name: push
+        run: |
+          git add .
+          git commit -m refresh
+          git push
