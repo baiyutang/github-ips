@@ -1,33 +1,16 @@
-# GitHub Start
-140.82.113.3      github.com
-140.82.114.20     gist.github.com
+---- github hosts---- 
+from https://github.com/baiyutang/github-ips
 
-199.232.96.133  user-images.githubusercontent.com
-
-151.101.184.133    assets-cdn.github.com
-151.101.108.133    raw.githubusercontent.com
-151.101.184.133    raw.githubusercontent.com
-151.101.184.133    gist.githubusercontent.com
-151.101.184.133    cloud.githubusercontent.com
-151.101.184.133    camo.githubusercontent.com
-
-151.101.184.133    avatars0.githubusercontent.com
-199.232.68.133     avatars0.githubusercontent.com
-199.232.28.133     avatars1.githubusercontent.com
-151.101.184.133    avatars1.githubusercontent.com
-151.101.184.133    avatars2.githubusercontent.com
-199.232.28.133     avatars2.githubusercontent.com
-151.101.184.133    avatars3.githubusercontent.com
-199.232.68.133     avatars3.githubusercontent.com
-151.101.184.133    avatars4.githubusercontent.com
-199.232.68.133     avatars4.githubusercontent.com
-151.101.184.133    avatars5.githubusercontent.com
-199.232.68.133     avatars5.githubusercontent.com
-151.101.184.133    avatars6.githubusercontent.com
-199.232.68.133     avatars6.githubusercontent.com
-151.101.184.133    avatars7.githubusercontent.com
-199.232.68.133     avatars7.githubusercontent.com
-151.101.184.133    avatars8.githubusercontent.com
-199.232.68.133     avatars8.githubusercontent.com
-
-# GitHub End
+13.229.188.59 github.com
+203.98.7.65 gist.github.com
+151.101.108.133 user-images.githubusercontent.com
+185.199.108.153 assets-cdn.github.com
+185.199.110.153 assets-cdn.github.com
+185.199.111.153 assets-cdn.github.com
+185.199.109.153 assets-cdn.github.com
+151.101.228.133 raw.githubusercontent.com
+151.101.108.133 gist.githubusercontent.com
+151.101.108.133 cloud.githubusercontent.com
+151.101.108.133 camo.githubusercontent.com
+151.101.108.133 avatars.githubusercontent.com
+---- github hosts----
