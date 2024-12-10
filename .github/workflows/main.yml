@@ -9,9 +9,9 @@ jobs:
     env:
       TZ: Asia/Shanghai
     steps:
-      - uses: actions/checkout@v2
-      - name: git config
-        run: git config --global user.name "github-actions"
+      - uses: actions/checkout@4
+        with:
+          token: ${{ github.token }}
       - name: list all file
         run: ls -al
       - name: chmod
